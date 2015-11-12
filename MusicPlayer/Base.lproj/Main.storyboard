@@ -67,8 +67,6 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="playItem" destination="vHM-3F-Uli" id="U1u-SL-DL0"/>
-                        <outlet property="stopitem" destination="rQq-Tr-MNy" id="x5m-TJ-dUN"/>
                         <outlet property="toolbar" destination="7ar-eJ-tzI" id="qcF-Td-e2R"/>
                     </connections>
                 </viewController>
