@@ -14,6 +14,9 @@
 		F542B7F81BF4F42700188EFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F542B7F61BF4F42700188EFF /* LaunchScreen.storyboard */; };
 		F542B8031BF4F42700188EFF /* MusicPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F542B8021BF4F42700188EFF /* MusicPlayerTests.swift */; };
 		F542B80E1BF4F42800188EFF /* MusicPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F542B80D1BF4F42800188EFF /* MusicPlayerUITests.swift */; };
+		F542B81C1BF4F43A00188EFF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F542B81B1BF4F43A00188EFF /* AVFoundation.framework */; };
+		F542B81F1BF4F55600188EFF /* estranha.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F542B81E1BF4F55600188EFF /* estranha.jpeg */; };
+		F542B8211BF4F59300188EFF /* Tacica.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F542B8201BF4F59300188EFF /* Tacica.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		F542B8091BF4F42700188EFF /* MusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F542B80D1BF4F42800188EFF /* MusicPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerUITests.swift; sourceTree = "<group>"; };
 		F542B80F1BF4F42800188EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F542B81B1BF4F43A00188EFF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F542B81E1BF4F55600188EFF /* estranha.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = estranha.jpeg; path = ../../../../Pictures/estranha.jpeg; sourceTree = "<group>"; };
+		F542B8201BF4F59300188EFF /* Tacica.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Tacica.mp3; path = ../../../../Music/Tacica.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F542B81C1BF4F43A00188EFF /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +84,7 @@
 		F542B7E11BF4F42700188EFF = {
 			isa = PBXGroup;
 			children = (
+				F542B81D1BF4F44500188EFF /* framework */,
 				F542B7EC1BF4F42700188EFF /* MusicPlayer */,
 				F542B8011BF4F42700188EFF /* MusicPlayerTests */,
 				F542B80C1BF4F42700188EFF /* MusicPlayerUITests */,
@@ -101,6 +109,8 @@
 				F542B7EF1BF4F42700188EFF /* ViewController.swift */,
 				F542B7F11BF4F42700188EFF /* Main.storyboard */,
 				F542B7F41BF4F42700188EFF /* Assets.xcassets */,
+				F542B8201BF4F59300188EFF /* Tacica.mp3 */,
+				F542B81E1BF4F55600188EFF /* estranha.jpeg */,
 				F542B7F61BF4F42700188EFF /* LaunchScreen.storyboard */,
 				F542B7F91BF4F42700188EFF /* Info.plist */,
 			);
@@ -123,6 +133,14 @@
 				F542B80F1BF4F42800188EFF /* Info.plist */,
 			);
 			path = MusicPlayerUITests;
+			sourceTree = "<group>";
+		};
+		F542B81D1BF4F44500188EFF /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				F542B81B1BF4F43A00188EFF /* AVFoundation.framework */,
+			);
+			name = framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +250,8 @@
 				F542B7F81BF4F42700188EFF /* LaunchScreen.storyboard in Resources */,
 				F542B7F51BF4F42700188EFF /* Assets.xcassets in Resources */,
 				F542B7F31BF4F42700188EFF /* Main.storyboard in Resources */,
+				F542B8211BF4F59300188EFF /* Tacica.mp3 in Resources */,
+				F542B81F1BF4F55600188EFF /* estranha.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
